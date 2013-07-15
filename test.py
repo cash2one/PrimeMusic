@@ -7,4 +7,5 @@ def here():
     print("PrimeMusic")
 
 if __name__ == "__main__":
-    here()
+    for i in xrange(0, 178) :
+        print("dir_fmt_info%d, 0" % i)
