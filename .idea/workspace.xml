@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbfe337a-3dda-439f-a536-4a678c9d77f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CollectiveIntelligence/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/url_normalization_check.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/url_normalization_delete.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/url_normalization_detect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/url_normalization_rule.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/url_normalization_update.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/conf/db/mysql.conf.online" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tool/multiRequest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/Novel.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/Novel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterInfoModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterInfoModule.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterInfoRealtimeCheckModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterInfoRealtimeCheckModule.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterStateModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterStateModule.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelClusterModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelClusterModule.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelMergeModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelMergeModule.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/authoritydatamining/MineControlModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/authoritydatamining/MineControlModule.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/debug/GetClusterInfoModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/debug/GetClusterInfoModule.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/integrate/NovelChapterRankModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/integrate/NovelChapterRankModule.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/integrate/NovelMysqlRequestModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/integrate/NovelMysqlRequestModule.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/rank/CheckIntegrateUpdate.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/rank/CheckIntegrateUpdate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/rank/NovelRankStatisticsModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/rank/NovelRankStatisticsModule.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/redundance_detection/chapter_rule_in_dir_detect.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/redundance_detection/chapter_rule_in_dir_detect.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/timeliness/CheckFmtUpdate.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/timeliness/CheckFmtUpdate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/timeliness/CheckOriUpdate.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/timeliness/CheckOriUpdate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/public/FrameDB.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/public/FrameDB.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PrimeMusic.iml" afterPath="$PROJECT_DIR$/.idea/PrimeMusic.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PrimeMusic.iws" />
@@ -23,11 +49,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NovelClusterModule.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/cluster/NovelClusterModule.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="22" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="37" selection-start="226" selection-end="226" vertical-scroll-proportion="0.2747253">
+            <state line="10" column="38" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiRequest.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tool/multiRequest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="18" selection-start="409" selection-end="409" vertical-scroll-proportion="0.7475083">
+              <folding>
+                <element signature="e#95#111#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,6 +93,7 @@
       <list>
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/CollectiveIntelligence/test.py" />
+        <option value="$PROJECT_DIR$/tool/multiRequest.py" />
       </list>
     </option>
   </component>
@@ -82,7 +129,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -111,22 +157,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CollectiveIntelligence" />
+              <option name="myItemId" value="tool" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataFrame" />
-    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dataframe_Cluster" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -136,7 +183,7 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.multiRequest">
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,6 +196,24 @@
       <module name="PrimeMusic" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="multiRequest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="PrimeMusic" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tool/multiRequest.py" />
       <option name="PARAMETERS" value="" />
       <option name="MULTIPROCESS" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -208,17 +273,19 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.multiRequest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.multiRequest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -237,8 +304,27 @@
     <configuration useDefault="false">C:\Users\sunhaowen\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\PyCharm\Dataframe_Cluster" />
+          <option name="myCopyRoot" value="D:\PyCharm\Dataframe_Cluster" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\PyCharm\Dataframe_Cluster" />
+          <option name="myCopyRoot" value="D:\PyCharm\Dataframe_Cluster" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="bbfe337a-3dda-439f-a536-4a678c9d77f4" name="Default" comment="" />
       <created>1373894829269</created>
       <updated>1373894829269</updated>
     </task>
@@ -250,31 +336,35 @@
       <created>1373896038574</created>
       <updated>1373896038574</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1373896149639</created>
+      <updated>1373896149639</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-260" y="-1088" width="1936" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16862327" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -331,17 +421,38 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CollectiveIntelligence/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/cluster/NovelClusterModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="22" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="226" selection-end="226" vertical-scroll-proportion="0.2747253">
+        <state line="10" column="38" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/multiRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="18" selection-start="409" selection-end="409" vertical-scroll-proportion="0.7475083">
+          <folding>
+            <element signature="e#95#111#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
