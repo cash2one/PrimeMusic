@@ -57,7 +57,7 @@ if __name__ == "__main__":
     error_count = counter()
     frequency = 5
     for index, raw_url in enumerate(raw_url_list) :
-        get_request = threading.Thread(name=index, target=send_get_requests, args=(index, raw_url, error_count))
+        get_request = threading.Thread(name=index, target=get_chapter_replace, args=(index, raw_url, error_count))
         get_request.start()
         if index % frequency == 0 :
             time.sleep(1.0)
