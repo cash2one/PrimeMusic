@@ -8,7 +8,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/url_normalization_rule.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/url_normalization_update.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/conf/db/mysql.conf.online" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tool/multiRequest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tool/dataservice/selectChapterUrl.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/Novel.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/Novel.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterInfoModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterInfoModule.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterInfoRealtimeCheckModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterInfoRealtimeCheckModule.py" />
@@ -25,9 +25,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/timeliness/CheckFmtUpdate.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/timeliness/CheckFmtUpdate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/timeliness/CheckOriUpdate.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/timeliness/CheckOriUpdate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/public/FrameDB.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/public/FrameDB.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PrimeMusic.iml" afterPath="$PROJECT_DIR$/.idea/PrimeMusic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PrimeMusic.iws" />
@@ -48,12 +45,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="multiRequest.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tool/multiRequest.py">
+      <file leaf-file-name="selectChapterUrl.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tool/dataservice/selectChapterUrl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="1766" selection-end="1766" vertical-scroll-proportion="1.8956044">
+            <state line="60" column="0" selection-start="3809" selection-end="3809" vertical-scroll-proportion="-0.08695652">
               <folding>
-                <element signature="e#95#111#0" expanded="true" />
+                <element signature="e#95#104#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,6 +75,7 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/CollectiveIntelligence/test.py" />
         <option value="$PROJECT_DIR$/tool/multiRequest.py" />
+        <option value="$PROJECT_DIR$/tool/dataservice/selectChapterUrl.py" />
       </list>
     </option>
   </component>
@@ -142,6 +140,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrimeMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrimeMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataservice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,7 +352,11 @@
       <created>1373966757251</created>
       <updated>1373966757251</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
+      <created>1373974657959</created>
+      <updated>1373974657959</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -418,7 +438,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="sunhaowen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -433,6 +453,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="test" />
     <MESSAGE value="sunhaowen" />
+    <MESSAGE value="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -475,9 +496,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tool/multiRequest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1766" selection-end="1766" vertical-scroll-proportion="1.8956044">
+        <state line="56" column="27" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.42307693">
           <folding>
             <element signature="e#95#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/dataservice/selectChapterUrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="3809" selection-end="3809" vertical-scroll-proportion="-0.08695652">
+          <folding>
+            <element signature="e#95#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
