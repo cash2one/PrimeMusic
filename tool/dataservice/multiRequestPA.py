@@ -53,7 +53,7 @@ def get_chapter(index, url_list, error_count) :
             tpl_version = result["tpl_version"]
         else :
             continue
-        if page_type == "PAGE_TYPE_NOVEL_LIST" and tpl_version == 0 :
+        if page_type == "PAGE_TYPE_NOVEL_CONTENT" and tpl_version == 0 :
             flag = True
             logger.debug("%d right %s" % (index, url))
             break
