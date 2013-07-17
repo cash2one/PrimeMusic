@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbfe337a-3dda-439f-a536-4a678c9d77f4" name="Default" comment="">
+    <list default="true" readonly="true" id="bbfe337a-3dda-439f-a536-4a678c9d77f4" name="Default" comment="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/url_normalization_check.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/url_normalization_delete.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/url_normalization_detect.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/url_normalization_rule.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/url_normalization_update.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/conf/db/mysql.conf.online" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tool/dataservice/selectChapterUrl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tool/dataservice/multiRequestPA.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/Novel.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/Novel.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterInfoModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterInfoModule.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterInfoRealtimeCheckModule.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/NovelChapterInfoRealtimeCheckModule.py" />
@@ -26,6 +26,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/timeliness/CheckOriUpdate.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/timeliness/CheckOriUpdate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/public/FrameDB.py" afterPath="$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/public/FrameDB.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tool/dataservice/selectChapterUrl.py" afterPath="$PROJECT_DIR$/tool/dataservice/selectChapterUrl.py" />
     </list>
     <ignored path="PrimeMusic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,12 +46,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="selectChapterUrl.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="selectChapterUrl.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tool/dataservice/selectChapterUrl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="3809" selection-end="3809" vertical-scroll-proportion="-0.08695652">
+            <state line="30" column="0" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#95#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiRequestPA.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tool/dataservice/multiRequestPA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="0" selection-start="2191" selection-end="2191" vertical-scroll-proportion="0.94505495">
+              <folding>
+                <element signature="e#95#111#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +86,9 @@
       <list>
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/CollectiveIntelligence/test.py" />
-        <option value="$PROJECT_DIR$/tool/multiRequest.py" />
         <option value="$PROJECT_DIR$/tool/dataservice/selectChapterUrl.py" />
+        <option value="$PROJECT_DIR$/tool/multiRequest.py" />
+        <option value="$PROJECT_DIR$/tool/dataservice/multiRequestPA.py" />
       </list>
     </option>
   </component>
@@ -111,6 +124,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,17 +177,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dataframe_Cluster" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -303,6 +316,7 @@
     <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="false">C:\Users\sunhaowen\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
     <option name="myMappingRoots">
@@ -356,7 +370,15 @@
       <created>1373974657959</created>
       <updated>1373974657959</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
+      <created>1373978436594</created>
+      <updated>1373978436594</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
+      <created>1374034175728</created>
+      <updated>1374034175728</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -388,7 +410,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16862327" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.178762" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.49839914" order="7" side_tool="true" content_ui="tabs" />
@@ -459,11 +481,18 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tool/dataservice/selectChapterUrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="26" selection-start="4779" selection-end="4779" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#95#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="26" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CollectiveIntelligence/test.py">
@@ -473,41 +502,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/public/FrameLog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="21" selection-start="1469" selection-end="1479" vertical-scroll-proportion="0.70598006">
-          <folding>
-            <element signature="e#292#302#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="62" column="21" selection-start="1469" selection-end="1479" vertical-scroll-proportion="0.70598006" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="227" selection-end="227" vertical-scroll-proportion="0.4152824">
-          <folding />
-        </state>
+        <state line="10" column="38" selection-start="227" selection-end="227" vertical-scroll-proportion="0.4152824" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Dataframe_Cluster/DataFrame/novel/cluster/NovelClusterModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="22" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/dataservice/selectChapterUrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#95#104#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tool/multiRequest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="27" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.42307693">
+        <state line="24" column="24" selection-start="0" selection-end="1932" vertical-scroll-proportion="0.2857143">
           <folding>
             <element signature="e#95#111#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tool/dataservice/selectChapterUrl.py">
+    <entry file="file://$PROJECT_DIR$/tool/dataservice/multiRequestPA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="3809" selection-end="3809" vertical-scroll-proportion="-0.08695652">
+        <state line="83" column="0" selection-start="2191" selection-end="2191" vertical-scroll-proportion="0.94505495">
           <folding>
-            <element signature="e#95#104#0" expanded="true" />
+            <element signature="e#95#111#0" expanded="true" />
           </folding>
         </state>
       </provider>

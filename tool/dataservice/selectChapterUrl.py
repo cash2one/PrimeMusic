@@ -14,7 +14,7 @@ def here():
 
 if __name__ == "__main__":
     site_list = ["dawenxue.net", "sohu.com", "null", "zhulang.com", "fbook.net", "xstxw.com", "xs8.cn", "sina.com.cn", "readnovel.com", "qdmm.com", "null", "laishu.com", "8535.org", "cuiweiju.com", "jjwxc.net", "shenmaxiaoshuo.com", "null", "52blgl.com", "xs52.com", "xiazailou.com", "baishuku.com", "null", "cnd1wx.com", "vodtw.com", "gosky.net", "89wx.com", "qbxs8.com", "null", "qidian.com", "yankuai.com", "yqhhy.cc", "nilongdao.com", "77shu.com", "txtbbs.com", "wm263.com", "xiaoyanwenxue.com", "tianyibook.com", "mpzw.com", "71wx.net", "tianyabook.com", "92txt.net", "93zw.com", "didaxs.com", "doulaidu.com", "kenwen.com", "feiku.com", "fmx.cn", "langlangshu.com", "shuoshuo520.com", "null", "kanshuge.com", "ya55.com", "79wx.net", "tianya.cn", "zhaishu.com", "bookzx.net", "saesky.net", "shukeju.com", "qingfo.com", "book108.com", "paoshu8.com", "null", "zzzcn.com", "nv001.cn", "6ycn.com", "qq.com", "sfacg.com", "null", "llwx.net", "88106.com", "null", "lingdiankanshu.com", "icmfgs.com", "kanxuanhuan.com", "hongshu.com", "bokon.net", "hszw.com", "duduwo.com", "hlj3.com", "null", "null", "dushuge.net", "null", "null", "cc222.com", "bxwx.org", "bookbao.com", "binhuo.com", "92zw.com", "92to.com", "87zw.com", "66721.com", "59to.com", "null", "4xiaoshuo.com", "21zw.net", "123du.net", "dudu8.net", "null", "zongheng.com", "yl22.com", "xiaoshuoshu.org", "xiaoshuoxiu.com", "zwwx.com", "7zbook.com", "xxsy.net", "17k.com", "null", "tom.com", "epzw.com", "luoqiu.com", "mingshulou.com", "qingxinwang.com", "hongxiu.com", "null", "null", "null", "3gsc.com.cn", "null", "null", "null", "fqxsw.com", "kewaishu.net", "niubb.net", "guanhuaju.com", "bxzw.com", "jdxs.net", "ha18.com", "d5wx.com", "dashubao.com", "7kankan.com", "d3zw.com", "cilook.cn", "5i33.com", "wanshulou.com", "shanwen.com", "null", "readwx.com", "hxtk.com", "wenxuedu.com", "yawen8.com", "null", "null", "shuqi.com", "xdyqw.com", "faloo.com", "2100book.com", "kanshu.com", "1001p.com", "wjsw.com", "qdwenxue.com", "24novel.com", "uczw.com", "null", "mtfcn.com", "99reader.cn", "aiyun.com", "yxgsk.com", "dzxsw.net", "wuxia.net.cn", "null", "null", "mmzh.com", "xxs8.com", "tadu.com", "null", "huanxia.com", "yuanchuang.com", "motie.com", "qefeng.com", "docin.net", "siluke.com", "quanben.com", "xiaoshuo555.cn", "shouda8.com", "nieshu.com", "zhuzhudao.com", "xshuotxt.com"]
-    url_list = open("./error_url", "r").read().splitlines()
+    url_list = open("./url", "r").read().splitlines()
 
     conn_even = MySQLdb.connect(
         host = "10.46.7.173",
@@ -23,7 +23,7 @@ if __name__ == "__main__":
         passwd = "K3i8T5h1N2o9",
         db = "novels")
     conn_odd = MySQLdb.connect(
-        host = "10.46.7.173",
+        host = "10.46.7.174",
         port = 4171,
         user = "wise_novelori_w",
         passwd = "K3i8T5h1N2o9",
