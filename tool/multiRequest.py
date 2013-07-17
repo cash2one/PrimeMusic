@@ -42,7 +42,12 @@ prefix = "http://m.baidu.com/open/dataservice/novel/chapter/url?lcid=mco_ds&repl
 def get_chapter_replace(index, url, error_count) :
     result = send_get_requests(prefix + url)
 
-    if result is False or type(result) == type({}) :
+    if result is False :
+        error_count.increment()
+        logger.debug("%d error %s" % (index, raw_url))
+        return False
+
+    if type(result) == type({}) :
         error_count.increment()
         logger.debug("%d error %s %s" % (index, result["error_code"], raw_url))
         return False
