@@ -3,9 +3,14 @@
 # author: sunhaowen@baidu.com
 # date: 2013/07/15 21:28
 
+import hashlib
+
 def here():
     print("PrimeMusic")
 
 if __name__ == "__main__":
-    for i in xrange(0, 178) :
-        print("dir_fmt_info%d, 0" % i)
+    book_name = "´óÖ÷Ô×"
+    m = hashlib.md5()
+    m.update(book_name)
+    table_id = int(m.hexdigest(), 16) % 256
+    print(table_id)
