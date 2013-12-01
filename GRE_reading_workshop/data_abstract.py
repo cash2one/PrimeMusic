@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 # -*- coding:utf-8
 # author: sunhaowen@baidu.com
-# date: 13-11-27 ÉÏÎç12:01
+# date: 13-11-27
 
 from bs4 import BeautifulSoup
 import pymongo
+import sys
 
 def here():
     print("PrimeMusic")
@@ -29,6 +30,17 @@ class Word(object):
         for p in node.find_all("p"):
             text = p.get_text().strip()
             self.meaning_list.append(text)
+        
+    def pack(self):
+        """
+        """
+        word_document = {}
+        word_document["word"] = "".join(self.word.encode("utf-8", "ignore").splitlines())
+        word_document["meaning_list"] = []
+        for raw_meaning in self.meaning_list:
+            meaning = "".join(raw_meaning.encode("utf-8", "ignore").splitlines())
+            word_document["meaning_list"].append(meaning)
+        return word_document
         
     def show(self):
         """
@@ -67,7 +79,18 @@ class WordGroup(object):
         """
         """
         self.paraphrase = node.get_text().strip()
-
+    
+    def pack(self):
+        """
+        """
+        group_document = {}
+        group_document["meaning"] = "".join(self.meaning.encode("utf-8", "ignore").splitlines())
+        group_document["paraphrase"] = "".join(self.paraphrase.encode("utf-8", "ignore").splitlines())
+        group_document["word_list"] = []
+        for word in self.word_list:
+            group_document["word_list"].append(word.pack())
+        return group_document
+        
     def show(self):
         """
         """
@@ -83,18 +106,36 @@ class DB(object):
     """
     """
     def __init__(self):
-        self.name = "sunhaowen"
-        self.mongo_client = pymongo.MongoClient("10.26.186.33", 27017)
+        self.mongo_client = pymongo.MongoClient("10.26.186.33", 8897)
     
-    def write_db(self, word_group_list):
+    def write_db(self, name, word_group_list):
         """
         """
-
+        db = self.mongo_client["sunhaowen"]
+        collection = db["word_group"]
+        for index, word_group in enumerate(word_group_list):
+            document = word_group.pack()
+            document["arg"] = "%s@%d" % (name, index)
+            try:
+                data = collection.find_one({"arg": document["arg"]})
+                if data:
+                    response = collection.update({"arg": document["arg"]}, document)
+                else:
+                    response = collection.insert(document)
+            except Exception, e:
+                print("update into mongo error [error: %s]" % e)
+                continue
     
         
 if __name__ == '__main__':
     
-    html = open("./sunhaowen.htm", "r").read()
+    if len(sys.argv)!= 2:
+        print("need a html file")
+        exit()
+
+    name = sys.argv[1]
+    
+    html = open("./%s.html" % name, "r").read()
     soup = BeautifulSoup(html)
     
     word_group_list = []
@@ -117,6 +158,9 @@ if __name__ == '__main__':
                 continue
         word_group_list.append(word_group)
 
-
+        print(word_group.pack())
+    
+    db = DB()
+    db.write_db(name, word_group_list)
 
 
