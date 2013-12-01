@@ -38,7 +38,7 @@ def send_get_requests(url):
     return result
 
 
-prefix = "http://m.baidu.com/open/dataservice/novel/chapter/url?lcid=mco_ds&replace=1&nocache=1&query="
+prefix = "http://m.baidu.com/open/novel/novel/chapter/url?lcid=mco_ds&replace=1&nocache=1&query="
 def get_chapter_replace(index, url, error_count) :
     result = send_get_requests(prefix + url)
 

@@ -8,8 +8,10 @@ import hashlib
 def here():
     print("PrimeMusic")
 
+
 if __name__ == "__main__":
-    book_name = "大主宰"
+
+    book_name = "靠近女领导"
     m = hashlib.md5()
     m.update(book_name)
     table_id = int(m.hexdigest(), 16) % 256
