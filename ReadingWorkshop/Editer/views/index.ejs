@@ -1,11 +1,19 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<% include layout-head %>
+<h1><%= title %></h1>
+<p>Welcome to <%= title %></p>
+<table id="oTable" style="background-color:#eeeeee;" bordercolor="#aaaaaa" border="1" cellpadding="0" cellpadding="2" width="100%">
+    <thead>
+        <tr>
+            <th>ccc</th>
+            <th>ccc</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><div contenteditable="true">xxx</div></td>
+            <td><div contenteditable="true">xxx</div></td>
+        </tr>
+    </tbody>
+</table>
+<input type="button" onClick="addRow();" style="font-size:16px;" value="+"/>
+<% include layout-foot %>
