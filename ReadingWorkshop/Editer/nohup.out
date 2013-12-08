@@ -1,0 +1,444 @@
+Failed to load c++ bson extension, using pure JS version
+Express server listening on port 8879
+[90mGET / [32m200 [90m20ms - 631b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m2ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m1ms[0m
+[90mGET /javascripts/click.js [36m304 [90m1ms[0m
+[90mGET / [32m200 [90m3ms - 631b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m1ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+wend
+1
+[90mPOST /find [32m200 [90m21ms - 860b[0m
+[90mGET / [32m200 [90m5ms - 631b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m1ms[0m
+wend
+1
+[90mPOST /find [32m200 [90m12ms - 860b[0m
+[90mPOST /delete [32m200 [90m76ms - 7b[0m
+abridge
+1
+[90mPOST /find [32m200 [90m16ms - 2.42kb[0m
+abridge
+1
+[90mPOST /find [32m200 [90m12ms - 2.39kb[0m
+abridge
+1
+[90mPOST /find [32m200 [90m17ms - 2.39kb[0m
+abridge
+1
+[90mPOST /find [32m200 [90m12ms - 2.42kb[0m
+abridge
+1
+[90mPOST /find [32m200 [90m9ms - 2.45kb[0m
+abridge
+1
+[90mPOST /find [32m200 [90m8ms - 2.45kb[0m
+[90mGET / [32m200 [90m3ms - 631b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+abridge
+1
+[90mPOST /find [32m200 [90m15ms - 2.45kb[0m
+abridge
+1
+[90mPOST /find [32m200 [90m10ms - 2.49kb[0m
+abridge
+1
+[90mPOST /find [32m200 [90m12ms - 2.49kb[0m
+[90mGET / [32m200 [90m4ms - 631b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m1ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [32m200 [90m2ms - 2.82kb[0m
+abridge
+1
+[90mPOST /find [32m200 [90m13ms - 2.49kb[0m
+[90mPOST /update [32m200 [90m27ms - 7b[0m
+[90mGET / [32m200 [90m3ms - 631b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m1ms[0m
+[90mGET /javascripts/click.js [32m200 [90m1ms - 2.88kb[0m
+abridge
+1
+[90mPOST /find [32m200 [90m11ms - 2.49kb[0m
+[90mPOST /update [32m200 [90m75ms - 7b[0m
+[90mPOST /update [32m200 [90m25ms - 7b[0m
+[90mGET / [32m200 [90m1ms - 631b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m1ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+abridge
+1
+[90mPOST /find [32m200 [90m9ms - 2.43kb[0m
+[90mPOST /delete [32m200 [90m24ms - 7b[0m
+abridge
+0
+[90mPOST /find [32m200 [90m4ms - 1b[0m
+fade
+1
+[90mPOST /find [32m200 [90m14ms - 6.73kb[0m
+[90mPOST /update [32m200 [90m857ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m16ms - 6.73kb[0m
+[90mGET / [32m200 [90m2ms - 631b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m1ms[0m
+[90mGET /javascripts/click.js [32m200 [90m1ms - 2.79kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 6.73kb[0m
+[90mPOST /update [32m200 [90m166ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m15ms - 6.16kb[0m
+[90mPOST /update [32m200 [90m152ms - 7b[0m
+[90mGET / [32m200 [90m2ms - 631b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m2ms[0m
+[90mGET /javascripts/click.js [36m304 [90m1ms[0m
+test
+1
+[90mPOST /find [32m200 [90m14ms - 6.3kb[0m
+[90mPOST /update [32m200 [90m149ms - 7b[0m
+test
+0
+[90mPOST /find [32m200 [90m5ms - 1b[0m
+fade
+1
+[90mPOST /find [32m200 [90m14ms - 6.16kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m14ms - 6.19kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 6.19kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m12ms - 6.19kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m15ms - 6.19kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m12ms - 6.19kb[0m
+[90mGET / [32m200 [90m3ms - 667b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+fade
+1
+[90mPOST /find [32m200 [90m12ms - 6.19kb[0m
+[90mGET / [32m200 [90m2ms - 658b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m1ms[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 6.19kb[0m
+[90mGET / [32m200 [90m3ms - 653b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+fade
+1
+[90mPOST /find [32m200 [90m15ms - 6.19kb[0m
+[90mPOST /update [32m200 [90m1444ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 6.19kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m15ms - 6.2kb[0m
+[90mGET / [32m200 [90m2ms - 708b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m3ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m2ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m1ms[0m
+fade
+1
+[90mPOST /find [32m200 [90m15ms - 6.2kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m12ms - 6.22kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 6.21kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 6.22kb[0m
+[90mGET / [32m200 [90m2ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 6.22kb[0m
+[90mGET / [32m200 [90m3ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m1ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+fade
+1
+[90mPOST /find [32m200 [90m15ms - 6.22kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m12ms - 6.22kb[0m
+[90mGET / [32m200 [90m1ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m1ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 6.23kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m12ms - 6.23kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m12ms - 6.23kb[0m
+[90mGET / [32m200 [90m3ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m1ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+fade
+1
+[90mPOST /find [32m200 [90m15ms - 6.23kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m21ms - 6.22kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 6.23kb[0m
+[90mGET / [32m200 [90m3ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m1ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+fade
+1
+[90mPOST /find [32m200 [90m15ms - 6.23kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m12ms - 6.24kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 6.24kb[0m
+[90mPOST /update [32m200 [90m110ms - 7b[0m
+[90mPOST /update [32m200 [90m114ms - 7b[0m
+[90mPOST /update [32m200 [90m118ms - 7b[0m
+[90mPOST /update [32m200 [90m129ms - 7b[0m
+[90mGET / [32m200 [90m2ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [32m200 [90m0ms - 3.14kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m14ms - 5.87kb[0m
+[90mPOST /update [32m200 [90m102ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m9ms - 4.03kb[0m
+[90mPOST /update [32m200 [90m93ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 4.03kb[0m
+[90mGET / [32m200 [90m3ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m1ms[0m
+[90mGET /javascripts/click.js [32m200 [90m1ms - 3.34kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m11ms - 4.03kb[0m
+[90mPOST /update [32m200 [90m104ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m9ms - 4.03kb[0m
+[90mGET / [32m200 [90m3ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m1ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [32m200 [90m1ms - 3.32kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 4.03kb[0m
+[90mPOST /update [32m200 [90m95ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m9ms - 4.03kb[0m
+[90mGET / [32m200 [90m3ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m1ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m1ms[0m
+[90mGET /javascripts/click.js [32m200 [90m1ms - 3.34kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m12ms - 4.03kb[0m
+[90mPOST /update [32m200 [90m74ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m9ms - 4.03kb[0m
+[90mGET / [32m200 [90m3ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m1ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [32m200 [90m0ms - 3.34kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m12ms - 4.03kb[0m
+[90mPOST /update [32m200 [90m106ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m9ms - 4.03kb[0m
+[90mGET / [32m200 [90m1ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m1ms[0m
+[90mGET /javascripts/click.js [32m200 [90m1ms - 3.34kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 4.03kb[0m
+[90mPOST /update [32m200 [90m93ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m9ms - 4.03kb[0m
+[90mPOST /update [32m200 [90m127ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m11ms - 4.03kb[0m
+[90mPOST /update [32m200 [90m94ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m9ms - 4.03kb[0m
+[90mPOST /update [32m200 [90m94ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m9ms - 4.03kb[0m
+[90mGET / [32m200 [90m3ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [32m200 [90m1ms - 3.38kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m14ms - 4.03kb[0m
+[90mPOST /update [32m200 [90m125ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m8ms - 4.03kb[0m
+[90mGET / [32m200 [90m1ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m1ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [32m200 [90m1ms - 3.18kb[0m
+fade
+1
+[90mPOST /find [32m200 [90m10ms - 4.03kb[0m
+[90mPOST /update [32m200 [90m225ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m9ms - 4.03kb[0m
+[90mPOST /update [32m200 [90m94ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m12ms - 3.71kb[0m
+[90mPOST /update [32m200 [90m55ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m8ms - 3.71kb[0m
+[90mPOST /update [32m200 [90m74ms - 7b[0m
+fade
+1
+[90mPOST /find [32m200 [90m11ms - 3.71kb[0m
+[90mGET / [32m200 [90m2ms - 773b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m1ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [32m200 [90m0ms - 3.14kb[0m
+[90mGET / [32m200 [90m2ms - 773b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m1ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m1ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m3ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m2ms - 718b[0m
+[90mGET /stylesheets/bootstrap.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /javascripts/jquery.js [36m304 [90m0ms[0m
+[90mGET /javascripts/bootstrap.js [36m304 [90m0ms[0m
+[90mGET /javascripts/click.js [36m304 [90m0ms[0m
+fade
+1
+[90mPOST /find [32m200 [90m13ms - 3.71kb[0m
+relinquish
+2
+[90mPOST /find [32m200 [90m14ms - 7.08kb[0m
+[90mPOST /update [32m200 [90m77ms - 7b[0m
+relinquish
+2
+[90mPOST /find [32m200 [90m13ms - 7.08kb[0m
+[90mPOST /update [32m200 [90m125ms - 7b[0m
+relinquish
+2
+[90mPOST /find [32m200 [90m12ms - 7.08kb[0m

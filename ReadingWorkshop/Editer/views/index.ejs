@@ -1,19 +1,20 @@
 <% include layout-head %>
-<h1><%= title %></h1>
-<p>Welcome to <%= title %></p>
-<table id="oTable" style="background-color:#eeeeee;" bordercolor="#aaaaaa" border="1" cellpadding="0" cellpadding="2" width="100%">
-    <thead>
-        <tr>
-            <th>ccc</th>
-            <th>ccc</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><div contenteditable="true">xxx</div></td>
-            <td><div contenteditable="true">xxx</div></td>
-        </tr>
-    </tbody>
-</table>
-<input type="button" onClick="addRow();" style="font-size:16px;" value="+"/>
+<div class="jumbotron">
+<h2>Welcom to GRE Reading Workshop</h2>
+<br>
+<br>
+</div>
+
+<div class="form-inline">
+<div class="form-group">
+    <input type="text" id="input-word" class="form-control" style="width:450px">
+    <input type="button" id="search-word" value="search" class="btn">
+</div>
+</div>
+<div>
+<br>
+<br>
+</div>
+<div id="word-group-list">
+</div>
 <% include layout-foot %>
