@@ -115,6 +115,7 @@ class DB(object):
         collection = db["word_group"]
         for index, word_group in enumerate(word_group_list):
             document = word_group.pack()
+            document["name"] = name
             document["arg"] = "%s@%d" % (name, index)
             try:
                 data = collection.find_one({"arg": document["arg"]})
@@ -136,31 +137,36 @@ if __name__ == '__main__':
     name = sys.argv[1]
     
     html = open("./%s.html" % name, "r").read()
+    html = html.decode("gbk", "ignore")
+    html = html.encode("utf-8", "ignore")
     soup = BeautifulSoup(html)
-    #print(soup.original_encoding)
+    print(soup.original_encoding)
     
     word_group_list = []
 
     for table in soup.find_all("table"):
         word_group = WordGroup()
-        
+
+        flag = False   
         for tr in table.find_all("tr"):
             td_list = tr.find_all("td")
 
             if len(td_list) == 1:
                 word_group.extract_paraphrase(td_list[0])
                 continue
-            if len(td_list) == 3:
+            if len(td_list) == 3 and flag == False:
                 word_group.extract_meaning(td_list[0])
                 word_group.extract_word(td_list[1], td_list[2])
+                flag = True
                 continue
-            if len(td_list) == 2:
-                word_group.extract_word(td_list[0], td_list[1])
+            if len(td_list) >= 2:
+                word_group.extract_word(td_list[len(td_list) - 2], td_list[len(td_list) - 1])
                 continue
-        word_group_list.append(word_group)
+        if flag == True:
+            word_group_list.append(word_group)
 
         word_group.show()
-        print(word_group.pack())
+        #print(word_group.pack())
     
     db = DB()
     db.write_db(name, word_group_list)
