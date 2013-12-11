@@ -29,7 +29,8 @@ class Word(object):
         """
         for p in node.find_all("p"):
             text = p.get_text().strip()
-            self.meaning_list.append(text)
+            if len(text) > 0:
+                self.meaning_list.append(text)
         
     def pack(self):
         """
@@ -166,7 +167,7 @@ if __name__ == '__main__':
             word_group_list.append(word_group)
 
         word_group.show()
-        #print(word_group.pack())
+        print(word_group.pack())
     
     db = DB()
     db.write_db(name, word_group_list)
