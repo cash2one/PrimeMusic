@@ -1,5 +1,0 @@
-<tr>
-<td><div contenteditable="true"><h3><strong><%=word.word%></strong></h3></div></td>
-<% var meanings = word.meaning_list; console.log(meanings.length); console.log(meanings[0]); console.log(typeof(meanings[0])); %>
-<td><div contenteditable="true"><%- partial('meaning.ejs', meanings)%></div></td>
-</tr>
