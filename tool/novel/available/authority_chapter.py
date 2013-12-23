@@ -8,6 +8,7 @@ import json
 import time
 import urllib
 import requests
+import MySQLdb
 
 def here():
     print("PrimeMusic")
@@ -68,7 +69,7 @@ class SilkServer():
             return False
         return True
 
-class DataService():
+class DataService(object):
     """
     """
     def get(self, gid):
@@ -91,8 +92,47 @@ class DataService():
             cid_list.append((href, cid))
         return cid_list
 
-    
+class DB(object):
+    """
+    """
+    def get(self, cid):
+        """
+        """
+        conn = MySQLdb.connect(
+            host = "10.46.7.171",
+            port = 4198,
+            user = "wise_novelclu_w",
+            passwd = "C9l3U4n6M2e1",
+            db = "novels_new")
+        rid, align_id = map(int, cid.split('|'))
+        table_id = rid % 256
+
+        sql = "SELECT chapter_url " \
+              "FROM integrate_chapter_info%d " \
+              "WHRER rid = %d AND align_id = %d " \
+              "ORDER BY chapter_rank"\
+              % (table_id, rid, align_id)
+        try:
+            cursor = conn.cursor()
+            cursor.execute(sql)
+        except Exception, e:
+            print('Faild to read chapter_url from DB, exception: {0}, sql: {1}'.format(e, sql))
+            return False
+
+        chapter_url_list = []
+        for (chapter_url, ) in cursor.fetchall():
+            chapter_url_list.append(chapter_url)
+
+        cursor.close()
+        conn.close()
+        return chapter_url_list
+
+
 if __name__ == '__main__':
+
+    db = DB()
+    chapter_url_list = db.get('3961103225|5206658917899571812')
+    print(chapter_url_list)
 
     silkserver = SilkServer()
     silkserver.init()
@@ -113,10 +153,8 @@ if __name__ == '__main__':
         print(data)
         print(len(data))
         here()
-        count += 1
-        if count == 10:
-            break
-            
+        break
+
 
     result = silkserver.get('http://www.shukeju.com/a/64/64526/9930741.html', '3961103225|5206658917899571812')
     if not result.has_key('blocks'):
