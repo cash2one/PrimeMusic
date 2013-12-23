@@ -3,6 +3,7 @@
 # author: sunhaowen@baidu.com
 # date: 13-12-23 ÏÂÎç2:22
 
+import re
 import json
 import time
 import urllib
@@ -11,7 +12,7 @@ import requests
 def here():
     print("PrimeMusic")
 
-class SilkService():
+class SilkServer():
     """
     """
     def init(self):
@@ -67,5 +68,33 @@ class SilkService():
             return False
         return True
 
+class DataService():
+    """
+    """
+    def init(self):
+        """
+        """
+
+    def get(self, gid):
+        """
+        """
+        src = 'http://m.baidu.com/open/dataservice/novel/dirurl/gid?lcid=mco_ds&query=%d' % gid
+        try:
+            result = requests.get(url).json()
+            
+    
 if __name__ == '__main__':
-    here()
+    
+    silkserver = SilkServer()
+    silkserver.init()
+    result = silkserver.get('http://www.shukeju.com/a/64/64526/9930741.html', '3961103225|5206658917899571812')
+    if not result.has_key('blocks'):
+        exit()
+    data = ''
+    for block in result['blocks']:
+        if block['type'] == 'NOVELCONTENT':
+            data = block['data_value']
+
+    data = re.sub('<[^>]*>', '', data).encode('GBK', 'ignore')
+    print(data)
+    
