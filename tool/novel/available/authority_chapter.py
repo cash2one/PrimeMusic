@@ -71,20 +71,32 @@ class SilkServer():
 class DataService():
     """
     """
-    def init(self):
-        """
-        """
-
     def get(self, gid):
         """
         """
         src = 'http://m.baidu.com/open/dataservice/novel/dirurl/gid?lcid=mco_ds&query=%d' % gid
         try:
-            result = requests.get(url).json()
-            
+            result = requests.get(src).json()
+        except Exception, e:
+            print('Failed to request dataservice, exception: {0}, src: {1}'.format(e, src))
+            return False
+        if result.has_key('error_code'):
+            print('Failed to get data from dataservice, src: {0}'.format(src))
+            return False
+
+        cid_list = []
+        for group in result['group']:
+            cid = group['cid']
+            cid_list.append(cid)
+        return cid_list
+
     
 if __name__ == '__main__':
-    
+
+    dataservice = DataService()
+    cid_list = dataservice.get(3961103225)
+    print(cid_list)
+
     silkserver = SilkServer()
     silkserver.init()
     result = silkserver.get('http://www.shukeju.com/a/64/64526/9930741.html', '3961103225|5206658917899571812')
