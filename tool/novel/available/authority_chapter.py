@@ -130,40 +130,50 @@ class DB(object):
 
 if __name__ == '__main__':
 
-    db = DB()
-    chapter_url_list = db.get('3961103225|5206658917899571812')
-    print(chapter_url_list)
+    book_name_list = []
+    for line in open('./overed_book_name.txt', 'r').readlines():
+        (gid, book_name) = line.split()
+        book_name_list.append(int(gid), book_name)
 
     silkserver = SilkServer()
     silkserver.init()
-
     dataservice = DataService()
-    cid_list = dataservice.get(3961103225)
-    count = 0
-    for (href, cid) in cid_list:
-        result = silkserver.get(href, cid)
-        if not result.has_key('blocks'):
-            exit()
-        data = ''
-        for block in result['blocks']:
-            if block['type'] == 'NOVELCONTENT':
-                data = block['data_value']
+    db = DB()
+    file_handler = open('./result.txt', 'w')
+    for (gid, book_name) in book_name_list:
+        print(book_name)
+        cid_list = dataservice.get(gid)
+        if cid_list is False:
+            continue
 
-        data = re.sub('<[^>]*>', '', data).encode('GBK', 'ignore')
-        print(data)
-        print(len(data))
-        here()
+        print('chapter_num: %d' % len(cid_list))
+        bad_cid_list = []
+        for (href, cid) in cid_list:
+            result = silkserver.get(href, cid)
+            if result is False:
+                bad_cid_list.append(cid)
+                continue
+            if not result.has_key('blocks'):
+                bad_cid_list.append(cid)
+                continue
+            data = ''
+            for block in result['blocks']:
+                if block['type'] == 'NOVELCONTENT':
+                    data = block['data_value']
+            data = re.sub('<[^>]*>', '', data).encode('GBK', 'ignore')
+            if len(data) < 20:
+                bad_cid_list.append(cid)
+
+        print('bad_chapter_num: %d' % len(bad_cid_list))
+        for cid in bad_cid_list:
+            print(cid)
+            result = db.get(cid)
+            if result is False:
+                continue
+            for chapter_url in result:
+                print(chapter_url)
+
         break
 
 
-    result = silkserver.get('http://www.shukeju.com/a/64/64526/9930741.html', '3961103225|5206658917899571812')
-    if not result.has_key('blocks'):
-        exit()
-    data = ''
-    for block in result['blocks']:
-        if block['type'] == 'NOVELCONTENT':
-            data = block['data_value']
 
-    data = re.sub('<[^>]*>', '', data).encode('GBK', 'ignore')
-    print(data)
-    
