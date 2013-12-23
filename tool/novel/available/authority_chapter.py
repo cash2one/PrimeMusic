@@ -86,19 +86,38 @@ class DataService():
 
         cid_list = []
         for group in result['group']:
+            href = group['href']
             cid = group['cid']
-            cid_list.append(cid)
+            cid_list.append((href, cid))
         return cid_list
 
     
 if __name__ == '__main__':
 
-    dataservice = DataService()
-    cid_list = dataservice.get(3961103225)
-    print(cid_list)
-
     silkserver = SilkServer()
     silkserver.init()
+
+    dataservice = DataService()
+    cid_list = dataservice.get(3961103225)
+    count = 0
+    for (href, cid) in cid_list:
+        result = silkserver.get(href, cid)
+        if not result.has_key('blocks'):
+            exit()
+        data = ''
+        for block in result['blocks']:
+            if block['type'] == 'NOVELCONTENT':
+                data = block['data_value']
+
+        data = re.sub('<[^>]*>', '', data).encode('GBK', 'ignore')
+        print(data)
+        print(len(data))
+        here()
+        count += 1
+        if count == 10:
+            break
+            
+
     result = silkserver.get('http://www.shukeju.com/a/64/64526/9930741.html', '3961103225|5206658917899571812')
     if not result.has_key('blocks'):
         exit()
