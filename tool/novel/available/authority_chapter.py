@@ -109,7 +109,7 @@ class DB(object):
 
         sql = "SELECT chapter_url " \
               "FROM integrate_chapter_info%d " \
-              "WHRER rid = %d AND align_id = %d " \
+              "WHERE rid = %d AND align_id = %d " \
               "ORDER BY chapter_rank"\
               % (table_id, rid, align_id)
         try:
