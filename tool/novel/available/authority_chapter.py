@@ -110,7 +110,7 @@ class DB(object):
         sql = "SELECT chapter_url " \
               "FROM integrate_chapter_info%d " \
               "WHERE rid = %d AND align_id = %d " \
-              "ORDER BY chapter_rank"\
+              "ORDER BY chapter_rank DESC"\
               % (table_id, rid, align_id)
         try:
             cursor = conn.cursor()
@@ -133,7 +133,7 @@ if __name__ == '__main__':
     book_name_list = []
     for line in open('./overed_book_name.txt', 'r').readlines():
         (gid, book_name) = line.split()
-        book_name_list.append(int(gid), book_name)
+        book_name_list.append((int(gid), book_name))
 
     silkserver = SilkServer()
     silkserver.init()
@@ -141,7 +141,7 @@ if __name__ == '__main__':
     db = DB()
     file_handler = open('./result.txt', 'w')
     for (gid, book_name) in book_name_list:
-        print(book_name)
+        file_handler('%s\n' % book_name)
         cid_list = dataservice.get(gid)
         if cid_list is False:
             continue
@@ -149,6 +149,7 @@ if __name__ == '__main__':
         print('chapter_num: %d' % len(cid_list))
         bad_cid_list = []
         for (href, cid) in cid_list:
+            print('%d  %s' % (cid, href))
             result = silkserver.get(href, cid)
             if result is False:
                 bad_cid_list.append(cid)
@@ -161,17 +162,20 @@ if __name__ == '__main__':
                 if block['type'] == 'NOVELCONTENT':
                     data = block['data_value']
             data = re.sub('<[^>]*>', '', data).encode('GBK', 'ignore')
+            print(len(data))
             if len(data) < 20:
                 bad_cid_list.append(cid)
 
         print('bad_chapter_num: %d' % len(bad_cid_list))
         for cid in bad_cid_list:
             print(cid)
-            result = db.get(cid)
+            file_handler('%s %d %d\n' % (book_name, gid, cid))
+            chapter_url_list = db.get(cid)
             if result is False:
                 continue
             for chapter_url in result:
-                print(chapter_url)
+                
+            
 
         break
 
