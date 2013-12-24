@@ -131,7 +131,7 @@ class DB(object):
 if __name__ == '__main__':
 
     book_name_list = []
-    for line in open('./overed_book_name.txt', 'r').readlines():
+    for line in open('./book_name.txt', 'r').readlines():
         (gid, book_name) = line.split()
         book_name_list.append((int(gid), book_name))
 
@@ -141,7 +141,7 @@ if __name__ == '__main__':
     db = DB()
     file_handler = open('./result.txt', 'w')
     for (gid, book_name) in book_name_list:
-        file_handler('\n%s\n' % book_name)
+        file_handler.write('book_name: %s, gid: %d\n' % (book_name, gid))
         print('book_name: %s, gid: %d' % (book_name, gid))
         cid_list = dataservice.get(gid)
         if cid_list is False:
@@ -150,7 +150,7 @@ if __name__ == '__main__':
         print('chapter_num: %d' % len(cid_list))
         bad_cid_list = []
         for (href, cid) in cid_list:
-            print('%d  %s' % (cid, href))
+            print('%s  %s' % (cid, href))
             result = silkserver.get(href, cid)
             if result is False:
                 bad_cid_list.append(cid)
@@ -164,13 +164,13 @@ if __name__ == '__main__':
                     data = block['data_value']
             data = re.sub('<[^>]*>', '', data).encode('GBK', 'ignore')
             print(len(data))
-            if len(data) < 20:
+            if len(data) < 50:
                 bad_cid_list.append(cid)
 
         print('bad_chapter_num: %d' % len(bad_cid_list))
         for cid in bad_cid_list:
             print(cid)
-            file_handler('%s %d %d\n' % (book_name, gid, cid))
+            file_handler.write('%s\n' % cid)
             chapter_url_list = db.get(cid)
             if chapter_url_list is False:
                 continue
@@ -189,7 +189,7 @@ if __name__ == '__main__':
                 data = re.sub('<[^>]*>', '', data).encode('GBK', 'ignore')
                 if len(data) > 50:
                     print(data)
-                    file_handler('%s\n' % data)
+                    file_handler.write('%s\n' % data)
                     flag = 1
                     real_result = result
                     break
@@ -197,9 +197,8 @@ if __name__ == '__main__':
                 flag = silkserver.save(cid, real_result)
             if flag:
                 print('OK')
-                file_handler('OK\n')
+                file_handler.write('OK\n')
             else:
                 print('ERROR')
-                file_handler('ERROR\n')
+                file_handler.write('ERROR\n')
 
-        break
