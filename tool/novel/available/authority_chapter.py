@@ -141,7 +141,8 @@ if __name__ == '__main__':
     db = DB()
     file_handler = open('./result.txt', 'w')
     for (gid, book_name) in book_name_list:
-        file_handler('%s\n' % book_name)
+        file_handler('\n%s\n' % book_name)
+        print('book_name: %s, gid: %d' % (book_name, gid))
         cid_list = dataservice.get(gid)
         if cid_list is False:
             continue
@@ -171,13 +172,34 @@ if __name__ == '__main__':
             print(cid)
             file_handler('%s %d %d\n' % (book_name, gid, cid))
             chapter_url_list = db.get(cid)
-            if result is False:
+            if chapter_url_list is False:
                 continue
-            for chapter_url in result:
-                
-            
+            flag = 0
+            real_result = ''
+            for chapter_url in chapter_url_list:
+                result = silkserver.get(chapter_url)
+                if result is False:
+                    continue
+                if not result.has_key('blocks'):
+                    continue
+                data = ''
+                for block in result['blocks']:
+                    if block['type'] == 'NOVELCONTENT':
+                        data = block['data_value']
+                data = re.sub('<[^>]*>', '', data).encode('GBK', 'ignore')
+                if len(data) > 50:
+                    print(data)
+                    file_handler('%s\n' % data)
+                    flag = 1
+                    real_result = result
+                    break
+            if flag == 1:
+                flag = silkserver.save(cid, real_result)
+            if flag:
+                print('OK')
+                file_handler('OK\n')
+            else:
+                print('ERROR')
+                file_handler('ERROR\n')
 
         break
-
-
-
