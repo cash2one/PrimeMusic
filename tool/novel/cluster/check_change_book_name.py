@@ -31,6 +31,8 @@ def get_diff_book_name():
                   "WHERE cluster_id = %d" % (table_id, gid)
             cursor.execute(sql)
             for (book_name, pen_name, dir_url) in cursor.fetchall():
+                if book_name.find("Æðµã") + 4 == len(book_name):
+                    book_name = book_name[0 : len(book_name) - 4]
                 if book_name_dict.has_key(book_name):
                     continue
                 book_name_dict[book_name] = (pen_name, dir_url)
