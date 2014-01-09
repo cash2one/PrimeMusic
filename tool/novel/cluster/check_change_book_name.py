@@ -22,7 +22,7 @@ def get_dir_id_list():
         sql = "SELECT dir_id, dir_url, rid " \
               "FROM dir_rid_info%d " \
               "ORDER BY update_time DESC " \
-              "LIMIT 10000"
+              "LIMIT 10000" % table_id
         cursor.execute(sql)
         for (dir_id, dir_url, rid) in cursor.fetchall():
             dir_id_list.append((dir_id, dir_url, rid))
@@ -34,4 +34,4 @@ def get_dir_id_list():
     file_handler.close()
 
 if __name__ == '__main__':
-    here()
+    get_dir_id_list()
