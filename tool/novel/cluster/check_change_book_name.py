@@ -38,7 +38,7 @@ def get_diff_book_name():
             continue
         file_handler.write("%d\n" % gid)
         for (key, value) in book_name_dict.items():
-            file_handler.write("%s  %s  %s" % (key, value[0], value[1]))
+            file_handler.write("%s  %s  %s\n" % (key, value[0], value[1]))
     file_handler.close()
     cursor.close()
     conn.close()
