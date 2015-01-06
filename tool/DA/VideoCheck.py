@@ -61,8 +61,11 @@ def video_topic_check(word):
 
 if __name__ == '__main__':
 
-    query_list = open('')
-    here()    
+    query_list = [line.strip() for line in open('./top1w', 'r').readlines()]
+    for index, query in enumerate(query_list):
+        logger.info('index: {0}, query: {1}'.format(index, query))
+        video_topic_check(query)
+    here()
 
 
 
