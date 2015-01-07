@@ -65,10 +65,10 @@ if __name__ == '__main__':
 
     query_list = [line.strip() for line in open('./query.txt', 'r').readlines()]
 
-    frequency = 10
+    frequency = 20
     main_thread = threading.currentThread()
     for index, query in enumerate(query_list):
-        check_thread = threading.Thread(name=index, target=video_topic_check, args=(query))
+        check_thread = threading.Thread(name=index, target=video_topic_check, args=(query, ))
         check_thread.start()
 
         logger.info('threading number: {0}'.format(threading.active_count()))
