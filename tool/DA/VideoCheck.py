@@ -7,6 +7,8 @@ __date__ = '2014-12-23 18:24'
 import requests
 import logging
 import json
+import time
+import threading
 
 
 def here():
@@ -62,8 +64,20 @@ def video_topic_check(word):
 if __name__ == '__main__':
 
     query_list = [line.strip() for line in open('./query.txt', 'r').readlines()]
+
+    frequency = 10
+    main_thread = threading.currentThread()
     for index, query in enumerate(query_list):
-        video_topic_check(query)
+        check_thread = threading.Thread(name=index, target=video_topic_check, args=(query))
+        check_thread.start()
+
+        if threading.active_count() > frequency:
+            time.sleep(1.0)
+
+    for t in threading.enumerate() :
+        if t is main_thread :
+            continue
+        t.join()
     here()
 
 
