@@ -55,7 +55,7 @@ def video_topic_check(word):
     topic_json = s_result['topicjson'][0]
     title = topic_json['title']
     intro = topic_json['intro']
-    logger.info('word: {0}, title: {1}, intro: {2}'.format(word, title, intro))
+    logger.info('word: {0}, title: {1}, intro: {2}'.format(word, title.encode('GBK'), intro.encode('GBK')))
     return True
 
 
