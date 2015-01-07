@@ -71,6 +71,7 @@ if __name__ == '__main__':
         check_thread = threading.Thread(name=index, target=video_topic_check, args=(query))
         check_thread.start()
 
+        logger.info('threading number: {0}'.format(threading.active_count()))
         if threading.active_count() > frequency:
             time.sleep(1.0)
 
