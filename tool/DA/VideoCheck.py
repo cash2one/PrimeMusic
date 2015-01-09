@@ -20,6 +20,19 @@ logger.setLevel(logging.DEBUG)
 logger.addHandler(logging.StreamHandler())
 
 
+class counter(object) :
+    def __init__(self, start = 0):
+        self.lock = threading.Lock()
+        self.value = start
+
+    def increment(self):
+        self.lock.acquire()
+        try:
+            self.value += 1
+        finally:
+            self.lock.release()
+
+
 def get_json_result(src):
     """
     :param src:
