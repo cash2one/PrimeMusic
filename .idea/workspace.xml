@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="bbfe337a-3dda-439f-a536-4a678c9d77f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tool/DA/ProcessQuery.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tool/DA/ProcessQuery.py" afterPath="$PROJECT_DIR$/tool/DA/ProcessQuery.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PrimeMusic.iws" />
@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/tool/DA/ProcessQuery.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.8535565" vertical-offset="136" max-vertical-offset="799">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
                 <element signature="e#96#111#0" expanded="true" />
               </folding>
@@ -540,7 +540,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420766933111</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
+      <created>1420768216440</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1420768216440</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -643,7 +649,7 @@
     <entry file="file://$PROJECT_DIR$/tool/DA/ProcessQuery.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8535565" vertical-offset="136" max-vertical-offset="799">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
             <element signature="e#96#111#0" expanded="true" />
           </folding>

@@ -30,7 +30,7 @@ def get_unique_top_query(file, number):
 
 
 if __name__ == '__main__':
-    get_unique_top_query('', 10000)
+    get_unique_top_query('', 1000000)
     here()
 
 
