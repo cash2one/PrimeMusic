@@ -35,8 +35,8 @@
       <file leaf-file-name="ProcessAlaXml.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tool/DA/ProcessAlaXml.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7186207" vertical-offset="567" max-vertical-offset="1360">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.14068966" vertical-offset="408" max-vertical-offset="1547">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="e#97#112#0" expanded="true" />
               </folding>
@@ -565,7 +565,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421205829328</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
+      <created>1421207574516</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1421207574516</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -677,8 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tool/DA/ProcessAlaXml.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7186207" vertical-offset="567" max-vertical-offset="1360">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.14068966" vertical-offset="408" max-vertical-offset="1547">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="e#97#112#0" expanded="true" />
           </folding>
