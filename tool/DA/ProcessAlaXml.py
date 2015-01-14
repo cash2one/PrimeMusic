@@ -24,6 +24,8 @@ def get_xml_key_list(src):
 
     key_list = []
     for item in tree.iter('item'):
+        if not item.find('key'):
+            continue
         key = item.find('key').text
         if len(key):
             key_list.append(key)
@@ -46,6 +48,8 @@ def process_single_site(src):
         return key_list
 
     for sitemap in tree.iter('sitemap'):
+        if not sitemap.find('loc'):
+            continue
         loc = sitemap.find('loc').text
         key_list.extend(get_xml_key_list(loc))
     return key_list
