@@ -64,7 +64,11 @@ if __name__ == '__main__':
     for (srcid, src) in source_list:
         print('srcid: {0}, src: {1}'.format(srcid, src))
         result = process_single_site(src)
-        file = open('./{0}.txt'.format(src), 'w')
+        file = open('./{0}.txt'.format(srcid), 'w')
         for key in result:
+            try:
+                key = key.encode('GBK')
+            except Exception, e:
+                continue
             file.write('{0}\n'.format(key.encode('GBK')))
         file.close()
