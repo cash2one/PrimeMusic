@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PrimeMusic.iml" filepath="$PROJECT_DIR$/.idea/PrimeMusic.iml" />
+      <module fileurl="file://$USER_HOME$/Baidu/demand-mining/.idea/demand-mining.iml" filepath="$USER_HOME$/Baidu/demand-mining/.idea/demand-mining.iml" />
+      <module fileurl="file://$USER_HOME$/Baidu/novel-data/.idea/novel-data.iml" filepath="$USER_HOME$/Baidu/novel-data/.idea/novel-data.iml" />
     </modules>
   </component>
 </project>
-

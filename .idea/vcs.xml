@@ -2,8 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
+    <mapping directory="$USER_HOME$/Baidu" vcs="svn" />
+    <mapping directory="$USER_HOME$/Baidu/demand-mining" vcs="svn" />
+    <mapping directory="$USER_HOME$/Baidu/novel-data" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/../Dataframe_Cluster" vcs="svn" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>
-

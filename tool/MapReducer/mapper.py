@@ -37,15 +37,8 @@ def Mapper(movie_name_dict):
             click_count = int(single_url_info_list[5])
             satisfy_count = int(float(single_url_info_list[6]))
 
-            print('{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}'.format(
-                query,
-                url,
-                domain,
-                title,
-                search_count,
-                click_count,
-                satisfy_count
-            ))
+            if satisfy_count > 10:
+                print('{0}\t{1}'.format(domain, satisfy_count))
 
 
 if __name__ == '__main__':
@@ -55,11 +48,3 @@ if __name__ == '__main__':
         movie_name_dict[movie_name] = 1
 
     Mapper(movie_name_dict)
-    here()    
-
-
-
-
-
-
-
