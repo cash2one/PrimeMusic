@@ -50,7 +50,7 @@ def Mapper(movie_name_dict):
 
 if __name__ == '__main__':
     movie_name_dict = {}
-    for line in open('./movieName.txt', 'r').readlines():
+    for line in open('./MovieName.txt', 'r').readlines():
         movie_name = line.strip()
         movie_name_dict[movie_name] = 1
 
