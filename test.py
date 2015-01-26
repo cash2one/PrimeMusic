@@ -9,4 +9,7 @@ def here():
 
 
 if __name__ == "__main__":
+    a = '1.23'
+    b = int(float(a))
+    print(b)
     here()

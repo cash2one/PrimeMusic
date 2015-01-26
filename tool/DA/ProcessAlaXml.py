@@ -48,7 +48,7 @@ def process_single_site(src):
         return key_list
 
     for sitemap in tree.iter('sitemap'):
-        if not sitemap.find('loc'):
+        if sitemap.find('loc') is None:
             continue
         loc = sitemap.find('loc').text
         key_list.extend(get_xml_key_list(loc))
