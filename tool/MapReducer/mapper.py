@@ -6,6 +6,7 @@ __date__ = '2015-01-23 10:51'
 
 import sys
 from urlparse import urlparse
+from collections import defaultdict
 
 def here():
     print('PrimeMusic')
@@ -21,6 +22,7 @@ def Mapper(movie_name_dict):
         if not movie_name_dict.has_key(query):
             continue
 
+        domain_dict = defaultdict(int)
         while len(total_url_info):
             single_url_info_list = total_url_info.split('\t', 18)
             if len(single_url_info_list) < 18:
@@ -38,7 +40,15 @@ def Mapper(movie_name_dict):
             satisfy_count = int(float(single_url_info_list[6]))
 
             if satisfy_count > 10:
-                print('{0}\t{1}'.format(domain, satisfy_count))
+                domain_dict[domain] += satisfy_count
+
+        domain_list = sorted(domain_dict.items(), key = lambda x: x[1], reverse = True)
+        current_satisfy = 0
+        for (domain, satisfy_count) in domain_list:
+            print('{0}\t{1}'.format(domain, query, satisfy_count))
+            current_satisfy += satisfy_count
+            if current_satisfy * 2 > total_satisfy_count:
+                break
 
 
 if __name__ == '__main__':

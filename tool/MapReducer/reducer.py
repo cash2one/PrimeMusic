@@ -17,22 +17,22 @@ def Reducer():
     :return:
     """
     current_domain = None
-    current_satisfy_count = 0
+    current_domain_query_dict = {}
 
     for line in sys.stdin:
         line = line.strip()
-        (domain, satisfy_count) = line.split('\t')
+        (domain, query, satisfy_count) = line.split('\t')
 
         if current_domain == domain:
-            current_satisfy_count += satisfy_count
+            current_domain_query_dict[query] = True
         else:
             if current_domain is not None:
-                print('{0}\t{1}'.format(current_domain, current_satisfy_count))
+                print('{0}\t{1}'.format(current_domain, len(current_domain_query_dict)))
             current_domain = domain
-            current_satisfy_count = satisfy_count
+            current_domain_query_dict = {}
 
     if current_domain is not None:
-        print('{0}\t{1}'.format(current_domain, current_satisfy_count))
+        print('{0}\t{1}'.format(current_domain, len(current_domain_query_dict)))
 
 
 if __name__ == '__main__':

@@ -10,8 +10,8 @@ def here():
 
 
 if __name__ == "__main__":
-    parsed_uri = urlparse( 'http://stackoverflow.com/questions/1234567/blah-blah-blah-blah' )
-    domain = '{uri.scheme}://{uri.netloc}/'.format(uri=parsed_uri)
-    domain = parsed_uri.netloc
-    print domain
+    a = {'a': 1, 'b': 2, 'c': 5, 'd': 3}
+    print(len(a))
+    b = sorted(a.items(), key = lambda x: x[1], reverse=True)
+    print(b)
     here()
