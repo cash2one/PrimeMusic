@@ -59,8 +59,8 @@
       <file leaf-file-name="CommonSiteMiningModule.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/CommonSiteMiningModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
-              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.9613793" vertical-offset="918" max-vertical-offset="1836">
+              <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
               <folding>
                 <element signature="e#98#108#0" expanded="true" />
               </folding>
@@ -737,7 +737,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422343206105</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
+      <created>1422361250104</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1422361250104</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -969,8 +975,8 @@
     </entry>
     <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/CommonSiteMiningModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.9613793" vertical-offset="918" max-vertical-offset="1836">
+          <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
           <folding>
             <element signature="e#98#108#0" expanded="true" />
           </folding>
