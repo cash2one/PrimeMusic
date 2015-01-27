@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="bbfe337a-3dda-439f-a536-4a678c9d77f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/basic" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/conf" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/data" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/map-reduce" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/public" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/tools" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/CommonSiteMiningModule.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/basic/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/map-reduce/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/public/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/tools/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/data/movie_name.txt" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/CommonSiteMiningModule.py" afterPath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/CommonSiteMiningModule.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PrimeMusic.iws" />
@@ -72,8 +59,8 @@
       <file leaf-file-name="CommonSiteMiningModule.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/CommonSiteMiningModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.2275863" vertical-offset="0" max-vertical-offset="1717">
-              <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
+              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
               <folding>
                 <element signature="e#98#108#0" expanded="true" />
               </folding>
@@ -744,7 +731,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422277317509</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
+      <created>1422343206104</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1422343206105</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -976,8 +969,8 @@
     </entry>
     <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/CommonSiteMiningModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2275863" vertical-offset="0" max-vertical-offset="1717">
-          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding>
             <element signature="e#98#108#0" expanded="true" />
           </folding>
