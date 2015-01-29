@@ -5,6 +5,24 @@
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.5 (/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python)" project-jdk-type="Python SDK" />
   <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$USER_HOME$/Baidu/demand-mining">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Baidu/novel-data">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
 </project>
