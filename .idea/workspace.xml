@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="bbfe337a-3dda-439f-a536-4a678c9d77f4" name="Default" comment="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Baidu/demand-mining/tools/test.py" afterPath="$USER_HOME$/Baidu/demand-mining/tools/test.py" />
+    <list default="true" readonly="true" id="bbfe337a-3dda-439f-a536-4a678c9d77f4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py" afterPath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PrimeMusic.iws" />
@@ -49,8 +48,8 @@
       <file leaf-file-name="MovieAliasMiningModule.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
-              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.3048276" vertical-offset="816" max-vertical-offset="1785">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="e#96#106#0" expanded="true" />
               </folding>
@@ -966,7 +965,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422530207798</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
+      <created>1422538359106</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1422538359106</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1262,8 +1267,8 @@
     </entry>
     <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.3048276" vertical-offset="816" max-vertical-offset="1785">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="e#96#106#0" expanded="true" />
           </folding>
