@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="bbfe337a-3dda-439f-a536-4a678c9d77f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieUrlMiningModule.py" afterPath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieUrlMiningModule.py" />
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Baidu/demand-mining/data/movie_site.txt" afterPath="$USER_HOME$/Baidu/demand-mining/data/movie_site.txt" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py" afterPath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PrimeMusic.iws" />
@@ -34,24 +33,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MovieAliasMiningModule.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MovieAliasMiningModule.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
-              <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.9613793" vertical-offset="1445" max-vertical-offset="2244">
+              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding>
                 <element signature="e#96#106#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieUrlMiningModule.py" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieUrlMiningModule.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -96,9 +85,9 @@
         <option value="$USER_HOME$/Baidu/demand-mining/tools/lingling/__init__.py" />
         <option value="$USER_HOME$/Baidu/novel-data/public/BasicStringMethod.py" />
         <option value="$USER_HOME$/Baidu/demand-mining/tools/test.py" />
-        <option value="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py" />
         <option value="$USER_HOME$/Baidu/demand-mining/data/movie_site.txt" />
         <option value="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieUrlMiningModule.py" />
+        <option value="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py" />
       </list>
     </option>
   </component>
@@ -1004,7 +993,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422885336107</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
+      <created>1422887616106</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1422887616106</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1308,16 +1303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-          <folding>
-            <element signature="e#96#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Baidu/demand-mining/data/movie_feature.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
@@ -1328,9 +1313,19 @@
     </entry>
     <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieUrlMiningModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        <state vertical-scroll-proportion="1.0551724" vertical-offset="187" max-vertical-offset="2091">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9613793" vertical-offset="1445" max-vertical-offset="2244">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#106#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
