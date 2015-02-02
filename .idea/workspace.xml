@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="bbfe337a-3dda-439f-a536-4a678c9d77f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py" afterPath="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/tools/sunhaowen" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/tools/sunhaowen/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Baidu/demand-mining/tools/sunhaowen/filter_feature.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PrimeMusic.iws" />
@@ -33,13 +35,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MovieAliasMiningModule.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MovieAliasMiningModule.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9613793" vertical-offset="1445" max-vertical-offset="2244">
-              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2244">
+              <caret line="93" column="58" selection-start-line="93" selection-start-column="58" selection-end-line="93" selection-end-column="58" />
               <folding>
                 <element signature="e#96#106#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter_feature.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Baidu/demand-mining/tools/sunhaowen/filter_feature.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7503448" vertical-offset="170" max-vertical-offset="986">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding>
+                <element signature="e#96#105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +102,8 @@
         <option value="$USER_HOME$/Baidu/demand-mining/data/movie_site.txt" />
         <option value="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieUrlMiningModule.py" />
         <option value="$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py" />
+        <option value="$USER_HOME$/Baidu/demand-mining/tools/sunhaowen/__init__.py" />
+        <option value="$USER_HOME$/Baidu/demand-mining/tools/sunhaowen/filter_feature.py" />
       </list>
     </option>
   </component>
@@ -156,6 +172,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrimeMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demand-mining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sunhaowen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -999,7 +1033,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422887616106</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
+      <created>1422889077105</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1422889077105</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1311,9 +1351,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Baidu/demand-mining/tools/sunhaowen/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieUrlMiningModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0551724" vertical-offset="187" max-vertical-offset="2091">
+        <state vertical-scroll-proportion="-0.4924138" vertical-offset="1309" max-vertical-offset="2091">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
@@ -1321,10 +1369,20 @@
     </entry>
     <entry file="file://$USER_HOME$/Baidu/demand-mining/map-reduce/movie-ticket/MovieAliasMiningModule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9613793" vertical-offset="1445" max-vertical-offset="2244">
-          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2244">
+          <caret line="93" column="58" selection-start-line="93" selection-start-column="58" selection-end-line="93" selection-end-column="58" />
           <folding>
             <element signature="e#96#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Baidu/demand-mining/tools/sunhaowen/filter_feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7503448" vertical-offset="170" max-vertical-offset="986">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
