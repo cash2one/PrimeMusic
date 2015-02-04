@@ -36,28 +36,18 @@
       <file leaf-file-name="chapter.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Baidu/novel-data/tools/chapter_script/chapter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="2635">
-              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.7737931" vertical-offset="1411" max-vertical-offset="2652">
+              <caret line="116" column="58" selection-start-line="116" selection-start-column="58" selection-end-line="116" selection-end-column="58" />
               <folding>
                 <element signature="e#96#110#0" expanded="true" />
-                <marker date="1423035128000" expanded="true" signature="802:864" placeholder="SELECT book_..novel_agg_info..." />
-                <marker date="1423035128000" expanded="true" signature="1882:1998" placeholder="UPDATE dir_a..." />
-                <marker date="1423035128000" expanded="true" signature="2464:2551" placeholder="SELECT book_..." />
-                <marker date="1423035128000" expanded="true" signature="2464:2566" placeholder="SELECT book_..novel_agg_info..." />
-                <marker date="1423035128000" expanded="true" signature="2464:2597" placeholder="SELECT book_..novel_agg_info..." />
-                <marker date="1423035128000" expanded="true" signature="3103:3223" placeholder="SELECT chapt..dir_agg_chapter_info..." />
-                <marker date="1423035128000" expanded="true" signature="3846:3963" placeholder="SELECT chapt..chapter_inte_info..." />
+                <marker date="1423037337000" expanded="true" signature="802:864" placeholder="SELECT book_..novel_agg_info..." />
+                <marker date="1423037337000" expanded="true" signature="1882:1998" placeholder="UPDATE dir_a..." />
+                <marker date="1423037337000" expanded="true" signature="2464:2551" placeholder="SELECT book_..." />
+                <marker date="1423037337000" expanded="true" signature="2464:2566" placeholder="SELECT book_..novel_agg_info..." />
+                <marker date="1423037337000" expanded="true" signature="2464:2597" placeholder="SELECT book_..novel_agg_info..." />
+                <marker date="1423037337000" expanded="true" signature="3103:3223" placeholder="SELECT chapt..dir_agg_chapter_info..." />
+                <marker date="1423037337000" expanded="true" signature="3909:4026" placeholder="SELECT chapt..chapter_inte_info..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Baidu/novel-data/conf/db.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.4" vertical-offset="1037" max-vertical-offset="2329">
-              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1108,7 +1098,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422900142106</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Merge branch 'master' of github.com:sunhaowen/PrimeMusic&#10;&#10;Conflicts:&#10;&#9;tool/multiRequest.py&#10;">
+      <created>1423035137103</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1423035137104</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -1510,25 +1506,25 @@
     </entry>
     <entry file="file://$USER_HOME$/Baidu/novel-data/conf/db.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.4" vertical-offset="1037" max-vertical-offset="2329">
-          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.29142857" vertical-offset="1037" max-vertical-offset="2329">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Baidu/novel-data/tools/chapter_script/chapter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="2635">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.7737931" vertical-offset="1411" max-vertical-offset="2652">
+          <caret line="116" column="58" selection-start-line="116" selection-start-column="58" selection-end-line="116" selection-end-column="58" />
           <folding>
             <element signature="e#96#110#0" expanded="true" />
-            <marker date="1423035128000" expanded="true" signature="802:864" placeholder="SELECT book_..novel_agg_info..." />
-            <marker date="1423035128000" expanded="true" signature="1882:1998" placeholder="UPDATE dir_a..." />
-            <marker date="1423035128000" expanded="true" signature="2464:2551" placeholder="SELECT book_..." />
-            <marker date="1423035128000" expanded="true" signature="2464:2566" placeholder="SELECT book_..novel_agg_info..." />
-            <marker date="1423035128000" expanded="true" signature="2464:2597" placeholder="SELECT book_..novel_agg_info..." />
-            <marker date="1423035128000" expanded="true" signature="3103:3223" placeholder="SELECT chapt..dir_agg_chapter_info..." />
-            <marker date="1423035128000" expanded="true" signature="3846:3963" placeholder="SELECT chapt..chapter_inte_info..." />
+            <marker date="1423037337000" expanded="true" signature="802:864" placeholder="SELECT book_..novel_agg_info..." />
+            <marker date="1423037337000" expanded="true" signature="1882:1998" placeholder="UPDATE dir_a..." />
+            <marker date="1423037337000" expanded="true" signature="2464:2551" placeholder="SELECT book_..." />
+            <marker date="1423037337000" expanded="true" signature="2464:2566" placeholder="SELECT book_..novel_agg_info..." />
+            <marker date="1423037337000" expanded="true" signature="2464:2597" placeholder="SELECT book_..novel_agg_info..." />
+            <marker date="1423037337000" expanded="true" signature="3103:3223" placeholder="SELECT chapt..dir_agg_chapter_info..." />
+            <marker date="1423037337000" expanded="true" signature="3909:4026" placeholder="SELECT chapt..chapter_inte_info..." />
           </folding>
         </state>
       </provider>
